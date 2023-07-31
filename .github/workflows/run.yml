@@ -1,7 +1,7 @@
 name: actions-trial
 on: [push]
 jobs:
-  check-bats-version:
+  test:
     runs-on: ubuntu-latest
     steps:
       uses: actions/checkout@v3
